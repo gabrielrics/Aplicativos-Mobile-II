@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         DatabaseReference myRef = database.getReference("produtos");
 
         Produtos p = new Produtos();
-        p.setNome("Ovomaltine");
+        p.setNome("Arroz");
         p.setPreco(15.00);
 
         myRef.child("777").setValue(p);

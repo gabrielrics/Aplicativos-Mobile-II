@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "363078093704",
+    "project_id": "cadastrocliente-dcccf",
+    "storage_bucket": "cadastrocliente-dcccf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363078093704:android:7181674dcb044af4d6483d",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYUgNkTMESKOE4h-CxcROPqickMcRDs0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
