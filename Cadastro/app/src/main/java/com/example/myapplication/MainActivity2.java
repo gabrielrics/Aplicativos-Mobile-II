@@ -29,6 +29,6 @@ public class MainActivity2 extends AppCompatActivity {
 
 
         // Salva o cliente no banco de dados
-        clientes.chield().setValue(cliente);
+        clientes.child("2").setValue(cliente);
     }
 }

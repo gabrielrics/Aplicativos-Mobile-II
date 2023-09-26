@@ -4,15 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity2">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="CADASTRO"
+        android:textSize="60sp"
+        android:textColor="#0abab5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="413dp"
+        android:src="@drawable/shape_divider"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="319dp"
+        android:background="#0abab5"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="190sp"
+        app:srcCompat="@drawable/cadastro"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <TextView
+        android:layout_width="400sp"
+        android:layout_height="200sp"
+        android:text="Para seguir adiante, clique no botão 'Cadastrar' abaixo."
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:layout_width="250sp"
+        android:layout_height="70sp"
+        app:layout_editor_absoluteX="80sp"
+        app:layout_editor_absoluteY="560sp"
+        android:text="CADASTRAR"
+        android:textSize="33sp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
