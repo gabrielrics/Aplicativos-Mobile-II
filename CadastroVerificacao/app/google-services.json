@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1057028829613",
+    "project_id": "cadastrovalidacao-f153a",
+    "storage_bucket": "cadastrovalidacao-f153a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057028829613:android:5fe2ccb69fa5bfdd51b124",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtWg9vJRX03xdbcJWOkdWnpX7ZTCA28Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057028829613:android:b598482ec04f1b6551b124",
+        "android_client_info": {
+          "package_name": "com.example.cadastroverificacao"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtWg9vJRX03xdbcJWOkdWnpX7ZTCA28Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
